@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>wiesmak.rnbwdshpb</id>
   <name>Rainbow Dash Progress Bar</name>
-  <version>1.5</version>
+  <version>1.6.1</version>
   <idea-version since-build="193"/>
   <vendor email="gerard.gajda@gmail.com" url="https://github.com/Wiesmak/">Wiesmak</vendor>
 
@@ -17,7 +17,7 @@
   <change-notes><![CDATA[
       <em>1.0 Awesome!</em><br>
       <em>
-        1.5 Dashie just got a little more awesome!
+        1.6.1  Rainbow Dashie just got a little more awesome!
         <ul>
           <li>She can now fly left and right</li>
           <li>She has another "slower" version for your long build times</li>
@@ -40,7 +40,7 @@
   </actions>
 
   <applicationListeners>
-    <listener class="ProgressBarLafManagerListener"
-              topic="com.intellij.ide.ui.LafManagerListener" />
+    <listener class="ProgressBarLafManagerListener" topic="com.intellij.ide.ui.LafManagerListener"/>
+    <listener class="ProgressBarLafManagerListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
   </applicationListeners>
 </idea-plugin>
