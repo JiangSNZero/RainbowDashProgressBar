@@ -31,6 +31,7 @@ Just create a fork and pull request, and I'll review it as soon as possible.
 * Flying Rainbow Dash gif by [SpokestheBrony](https://www.deviantart.com/spokesthebrony/art/Flying-Rainbow-Loop-316144649)
 
 ### Code
-
+* This project is a modified version of [RainbowDashProgressBar](https://github.com/JiangSNZero/RainbowDashProgressBar), licensed under the **GNU GPLv3**.
+* All modifications are publicly available in this repository.
 * The code for the progress bar was adapted from [Mario Progress Bar](https://github.com/KikiManjaro/MarioProgressBar).
 * This plugin is of course heavily dependent on JetBrains' IntelliJ SDK
